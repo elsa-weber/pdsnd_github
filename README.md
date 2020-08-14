@@ -25,3 +25,10 @@ The following columns are included in the data files:
 - User Type 
 - Gender (only for Chicago and NYC)
 - Birth Year (only for Chicago and NYC)
+
+### Computed Statistics:
+- Popular Times of Travel
+- Popular Stations and trips
+- Trip duration
+- User statistics
+- Raw data
