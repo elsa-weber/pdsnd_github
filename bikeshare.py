@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# define global variables
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -132,6 +133,7 @@ def trip_duration_stats(df, city):
     
     """Displays statistics on the total and average trip duration."""
 
+    # ask users whether they want so see trip duration statistics
     option = input('If you want to see some statistics about the trip duration, please type in "yes": ')
     start_time = time.time()
     
@@ -156,6 +158,7 @@ def user_stats(df, city):
     
     """Displays statistics on bikeshare users."""
     
+    # ask users whether they want so see user statistics
     option = input('If you want to see some statistics about the bikeshare users, please type in "yes": ')
 
     if option == 'yes':
@@ -206,7 +209,8 @@ def raw_data(df):
     
     rows_start = 1
     rows_end = 6
-    
+
+    # ask users whether they want so see raw data
     print('\nDo you want to see some raw data?\n')
           
     while True:
