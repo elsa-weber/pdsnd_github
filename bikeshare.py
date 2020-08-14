@@ -229,6 +229,9 @@ def raw_data(df):
 def main():
 
     while True:
+        start = input('Do you like to explore some US Bikeshare data? Enter 'yes' or 'no'.\n')
+        if start != 'yes':
+            break 
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
