@@ -12,3 +12,16 @@ bikeshare.py
 
 ### Credits
 Template by udacity.com. Thanks to the Udacity team for the great nanodegree program "Programming for Data Scientists"
+
+### Dataset
+The underlying data set is provided by Motivate, a bike share system provider for many major cities in the US.
+The data is provided for the first six months of 2017 for the cities Chicago, New York City and Washington.
+The following columns are included in the data files:
+- Start Time 
+- End Time 
+- Trip Duration 
+- Start Station 
+- End Station 
+- User Type 
+- Gender (only for Chicago and NYC)
+- Birth Year (only for Chicago and NYC)
