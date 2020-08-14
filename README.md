@@ -5,11 +5,10 @@
 Analyze US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Interactive python project to analyze usage data of a US bikeshare company. Users can choose the city as well as the timeframe to be analyzed.
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Template by udacity.com. Thanks to the Udacity team for the great nanodegree program "Programming for Data Scientists"
