@@ -28,7 +28,7 @@ The following columns are included in the data files:
 
 ### Computed Statistics:
 - Popular Times of Travel
-- Popular Stations and trips
-- Trip duration
-- User statistics
-- Raw data
+- Popular Stations and Trips
+- Trip Duration
+- User Statistics
+- Raw Data
